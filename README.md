@@ -2,4 +2,6 @@
 
 <h1>My Web Projects</h1>
 
-
+<ul>
+    <li><a href="labs1/index.html">Lab 1 - Hello World</li>
+</ul>
