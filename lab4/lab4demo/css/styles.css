@@ -1,0 +1,80 @@
+body {
+  background-color: #8F9D8C;  
+}
+
+img {
+    max-width: 100%;
+}
+
+#container {
+    width: 75%;
+    margin: 20px auto;
+    border: 4px solid #16221B;
+}
+
+header {
+    background-image: url('../images/outdoor2.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    padding: 10px;
+}
+
+header h1 {
+    font-size: 60px;
+    line-height: 250px;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+}
+
+nav {
+    text-align: center;
+    padding: 20px 0 0 0;
+    margin: 10px 0;
+}
+
+nav a {
+    background-color: white;
+    padding: 20px 60px;
+    color: #8F9D8C;
+    font-size: 1.5em;
+    text-decoration: none;
+    border-radius: 20px 20px 0 0;
+}
+
+nav a:hover {
+    background-color: black;
+    padding-bottom: 12px;
+}
+
+.active {
+    background-color: black;
+    padding-bottom: 12px;
+}
+
+main {
+    background-color: white;
+    padding: 20px;
+}
+
+main h1 {
+    text-align: center;
+    color: #16221B;
+    text-shadow: 2px 2px 2px #8F9D8C;
+}
+
+main img {
+    display: block;
+    width: 75%;
+    margin: 40px auto;
+    border-radius: 20px;
+}
+
+footer {
+    background-color: white;
+    padding: 40px 0;
+    text-align: center;
+    margin-top: 10px;
+}
