@@ -11,6 +11,7 @@
     <li><a href="lab6/index.html" target="_blank">Lab6 - Intro to Repsonisve Design (Tablet and Mobile View)</a></li>
     <li><a href="lab7/index.html" target="_blank">Lab7 - Audio, Video and Tables</a></li>
     <li><a href="lab8/index.html" target="_blank">Lab8 - Introduction to jQuery</a></li>
+    <li><a href="swtor/index.html" target="_blank">SWTOR Mid-Term Class Demo Site</a></li>
     
 </ul>
 
