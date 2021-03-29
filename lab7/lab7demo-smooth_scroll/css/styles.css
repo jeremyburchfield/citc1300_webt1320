@@ -1,0 +1,147 @@
+body {
+    background-color: #D7F207;
+}
+
+audio, video {
+    max-width: 100%;
+    display: block;
+    margin: 20px auto;
+}
+
+table {
+    margin: 20px auto;
+}
+
+ a.link  {
+    color: #D7F207;
+    margin-left: 5px;
+}
+
+a:hover.link {
+    color: #F22929;
+    text-decoration: none;
+}
+
+/* Mobile Styles */
+#container {
+    margin: 10px;
+}
+
+header {
+    background-image: url('../images/header_bg.png');
+    padding: 10px;
+    background-size: cover;
+    height: 200px;
+    line-height: 275px;
+}
+
+header h1 {
+    color: #F22929;
+    text-align: center;
+    text-shadow: 2px 2px 2px #000;
+    font-size: 1.5em;
+}
+
+nav {
+    text-align: center;
+    background-color: #000;
+    padding: 1px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    display: block;
+}
+
+nav li a {
+   display: block;
+   padding: 15px 0;
+   background-color: #000;
+   border-top: 2px solid #D7F207;
+   border-bottom: 2px solid #D7F207;
+   color: #D7F207;
+   font-size: 1.2em;
+   text-decoration: none;
+}
+
+#audio, #video, #tables {
+    background-color: #000;
+    padding: 20px;
+    margin: 10px 0;
+}
+
+main h2 {
+    color: #D7F207;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+main h3 {
+    color: #F22929;
+    text-align: center;
+    font-size: 1em;
+}
+
+footer {
+    background-color: #000;
+    padding: 20px 0;
+    text-align: center;
+    color: #F22929;
+}
+
+tr, td {
+    border: 2px solid #D7F207;
+    color: #F22929;
+    padding: 10px;
+    width: 25%;
+    text-align: center;
+}
+
+@media only screen and (min-width: 768px) {
+    nav li {
+        display: inline-block;
+    }
+
+    nav li a {
+        width: 225px;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    #container {
+        width: 65%;
+        margin: 20px auto;
+        border: 2px solid #F22929;
+    }
+    
+    header {
+        height: 400px;
+        line-height: 200px;
+    }
+
+    header h1 {
+        font-size: 4em;
+    }
+
+    nav li a {
+        width: 300px;
+    }
+
+    video {
+        width: 50%;
+    }
+
+    table {
+        margin: 0 auto;
+    }
+}
+
+
+
+
+
+
